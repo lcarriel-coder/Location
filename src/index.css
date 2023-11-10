@@ -2,9 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {
   background-color: #F7F7F9;
   min-height: 100vh;
   padding:25px 15px;
   font-family: 'Open Sans', sans-serif;
+}
+
+
+.searchShadow{
+ 
+   box-shadow: -2px  5px 10px rgba(0, 0, 0, 0.06), 2px 5px 10px rgba(0, 0, 0, 0.06);
+
+    
 }

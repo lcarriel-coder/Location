@@ -1,15 +1,11 @@
-import { SearchAddress } from "./location/pages"
-
-
+import { SearchAddress } from "./location/pages";
 
 function Location() {
-
-
   return (
-    <>
-     <SearchAddress />
-    </>
-  )
+    <div className="mx-auto max-w-2xl">
+      <SearchAddress />
+    </div>
+  );
 }
 
-export default Location
+export default Location;
