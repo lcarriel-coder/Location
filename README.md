@@ -3,7 +3,7 @@
 This application allows you to verify the existence of an address in relation to our company using 
 - React
 - Vite
-- FRedux Toolkit.
+- Redux Toolkit.
 - TypeScript.
 - Tailwind CSS.
 - It makes use of Google APIs, including Maps JavaScript API, Places API, and Geocoding API
