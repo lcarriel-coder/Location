@@ -15,14 +15,8 @@ export const uiSlice = createSlice({
   initialState,
   reducers: {
     onOpenDateModal: ( state , { payload } ) => {
-      console.log("ypayload",payload);
         state.isDateModalOpen = true;
-        state.activeContentModal ={
-          title: payload?.title,
-          subtitle: payload?.subtitle,
-          detail: payload?.detail,
-          footer: payload?.footer,
-        } ;
+        state.activeContentModal =payload;
     },
     onCloseDateModal: ( state ) => {
         state.isDateModalOpen = false;

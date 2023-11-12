@@ -44,7 +44,6 @@ export const useSearch = () => {
     } catch (error) {
       console.error(error);
       return false;
-    } finally {
     }
   };
 

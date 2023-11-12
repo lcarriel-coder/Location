@@ -25,7 +25,7 @@ export const Modal = () => {
               &#8203;
             </span>
 
-            <div className="inline-block align-bottom bg-white  text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
+            <div className="inline-block align-bottom bg-white  text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-xl sm:w-full">
               <div className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4 flex justify-end items-center">
                 <button
                   onClick={closeDateModal}
