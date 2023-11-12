@@ -1,2 +1,1 @@
-export * from './InputSearch';
-export * from './ItemData';
+export * from './Modal';

@@ -1,10 +1,17 @@
-import { ItemData } from "../../../ui";
-import { InputSearch } from "../../../ui/InputSearch";
+import { InputSearch, ItemData } from ".";
+import { useSearch } from "../../../hooks/useSearch";
+
 export const Search = () => {
+
+  const { limitedSuggestions , status,  value, setValue} = useSearch();
+
   return (
     <>
-      <InputSearch />
-      <ItemData />
+      <InputSearch value={value} setValue={setValue} />
+
+      { status === "OK" && limitedSuggestions?.map((suggetion) => (
+        <ItemData key={suggetion.place_id} suggetion={suggetion} />
+      ))}
     </>
   );
 };
