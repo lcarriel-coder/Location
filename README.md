@@ -8,6 +8,9 @@ This application allows you to verify the existence of an address in relation to
 - Tailwind CSS.
 - It makes use of Google APIs, including Maps JavaScript API, Places API, and Geocoding API
 
+  LIVE TEST SITE
+  https://location-hazel.vercel.app/
+
 ## Steps to Use the Application
 
 ## 1. Clone the Project
@@ -16,7 +19,7 @@ This application allows you to verify the existence of an address in relation to
 npm install
 
 ### 3. Configure Google API KEY
-Open the Global.ts file at src folder.
+Create a .env file in your project's root folder and add the key VITE_API_KEY
 Replace KEY  with your Google API KEY, ensuring you have access to Maps JavaScript API, Places API, and Geocoding API.
 
 ### 4. Initialize the Application
