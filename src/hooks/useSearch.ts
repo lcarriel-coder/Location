@@ -17,13 +17,14 @@ const convertAutocompleteSuggestionToGeoArgs = (
 };
 
 export const useSearch = () => {
+  
   const {
     value,
     setValue,
     suggestions: { status, data },
   } = usePlacesAutocomplete();
 
-  const limitedSuggestions = data.slice(0, 3);
+  const limitedSuggestions = data?.slice(0, 3);
 
   const onSearchPlaceZip = async (suggention: Suggestion): Promise<boolean> => {
     try {
