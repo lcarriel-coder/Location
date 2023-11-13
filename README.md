@@ -7,6 +7,7 @@ This application allows you to verify the existence of an address in relation to
 - TypeScript.
 - Tailwind CSS.
 - It makes use of Google APIs, including Maps JavaScript API, Places API, and Geocoding API
+- Jest and React-Testing-Library for testing
 
   LIVE TEST SITE
   https://location-hazel.vercel.app/
@@ -30,6 +31,12 @@ npm run dev
 
 Open your browser and go to http://localhost:5173.
 
+### 6. Testing
+
+To run tests you can follow these steps:
+
+- Remove the "type": "module" line from the package.json file.
+- Run your tests using the following command: npm test
 
 ## Project Screenshots
 ![Captura de pantalla](https://github.com/lcarriel-coder/Location/blob/main/pictures/Screenshot_442.png)
